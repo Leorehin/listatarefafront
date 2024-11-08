@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <main>
+
+        <table>
+            <thead>
+
+                <tr>
+                    <th>id tarefa</th>
+                    <th>tarefa</th>
+                    <th>custo(R$)</th>
+                    <th>data limite</th>
+                    <th>controle</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <!--
+                    <tr>
+                        <td>id Tarefa</td>
+                        <td>nome da Tarefa</td>
+                        <td>120,00</td>
+                        <td>23 de janeiro de 2024</td>
+    
+                        <td>
+                            <button class="btn-action">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
+                            <button class="btn-action">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                -->
+                
+
+            </tbody>
+        </table>
+
+        <form class="add-form">
+            <input type="text" placeholder="Adicionar Tarefa" class="inputNome">
+            <input type="text" placeholder="adicionar custo" class="inputCusto">
+            <input type="date" placeholder="adicionar data" class="inputData">
+            <button type="submit">+</button>    
+        </form>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
